@@ -382,28 +382,21 @@
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
  <body class="h-full">
-  <div class="portfolio-wrapper" id="main-wrapper">
-   <!-- Custom Cursor -->
+  <div class="portfolio-wrapper" id="main-wrapper"><!-- Custom Cursor -->
    <div class="cursor-follower hidden lg:block" id="cursor"></div><!-- Navigation -->
    <nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4 md:px-12 md:py-6" id="navbar">
-    <div class="flex items-center justify-between max-w-7xl mx-auto">
-     <a href="#hero" class="font-display text-xl md:text-2xl font-semibold tracking-tight" id="nav-logo"> Aria Chen </a> <!-- Desktop Nav -->
-     <div class="hidden md:flex items-center gap-8">
-      <a href="#work" class="nav-link font-sans text-sm tracking-wide">Work</a> <a href="#services" class="nav-link font-sans text-sm tracking-wide">Services</a> <a href="#about" class="nav-link font-sans text-sm tracking-wide">About</a> <a href="#contact" class="nav-link font-sans text-sm tracking-wide">Contact</a> <button id="theme-toggle" class="w-10 h-10 rounded-full border border-current flex items-center justify-center transition-all hover:scale-110" aria-label="Toggle theme">
-       <svg id="theme-icon-dark" class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+    <div class="flex items-center justify-between max-w-7xl mx-auto"><a href="#hero" class="font-display text-xl md:text-2xl font-semibold tracking-tight" id="nav-logo"> Faizal Razak </a> <!-- Desktop Nav -->
+     <div class="hidden md:flex items-center gap-8"><a href="#work" class="nav-link font-sans text-sm tracking-wide">Work</a> <a href="#services" class="nav-link font-sans text-sm tracking-wide">Services</a> <a href="#about" class="nav-link font-sans text-sm tracking-wide">About</a> <a href="#contact" class="nav-link font-sans text-sm tracking-wide">Contact</a> <button id="theme-toggle" class="w-10 h-10 rounded-full border border-current flex items-center justify-center transition-all hover:scale-110" aria-label="Toggle theme">
+       <svg id="theme-icon-dark" class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
        </svg>
-       <svg id="theme-icon-light" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+       <svg id="theme-icon-light" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
        </svg></button>
      </div><!-- Mobile Menu Button --> <button id="mobile-menu-btn" class="md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5" aria-label="Open menu"> <span class="w-6 h-0.5 bg-current transition-all" id="menu-line-1"></span> <span class="w-6 h-0.5 bg-current transition-all" id="menu-line-2"></span> <span class="w-4 h-0.5 bg-current transition-all ml-auto" id="menu-line-3"></span> </button>
     </div>
    </nav><!-- Mobile Menu -->
-   <div class="mobile-menu fixed inset-0 z-40 bg-bg flex flex-col items-center justify-center gap-8 md:hidden" id="mobile-menu">
-    <a href="#work" class="font-display text-3xl" onclick="closeMobileMenu()">Work</a> <a href="#services" class="font-display text-3xl" onclick="closeMobileMenu()">Services</a> <a href="#about" class="font-display text-3xl" onclick="closeMobileMenu()">About</a> <a href="#contact" class="font-display text-3xl" onclick="closeMobileMenu()">Contact</a> <button onclick="toggleTheme(); closeMobileMenu();" class="mt-8 px-6 py-3 border border-current rounded-full font-sans text-sm"> Toggle Theme </button>
+   <div class="mobile-menu fixed inset-0 z-40 bg-bg flex flex-col items-center justify-center gap-8 md:hidden" id="mobile-menu"><a href="#work" class="font-display text-3xl" onclick="closeMobileMenu()">Work</a> <a href="#services" class="font-display text-3xl" onclick="closeMobileMenu()">Services</a> <a href="#about" class="font-display text-3xl" onclick="closeMobileMenu()">About</a> <a href="#contact" class="font-display text-3xl" onclick="closeMobileMenu()">Contact</a> <button onclick="toggleTheme(); closeMobileMenu();" class="mt-8 px-6 py-3 border border-current rounded-full font-sans text-sm"> Toggle Theme </button>
    </div><!-- Hero Section -->
-   <section id="hero" class="relative min-h-screen flex items-center gradient-bg overflow-hidden">
-    <!-- Floating Shapes -->
+   <section id="hero" class="relative min-h-screen flex items-center gradient-bg overflow-hidden"><!-- Floating Shapes -->
     <div class="floating-shape w-96 h-96 bg-primary top-20 -left-48" style="animation-delay: 0s;"></div>
     <div class="floating-shape w-64 h-64 bg-blue-500 bottom-20 right-20" style="animation-delay: -5s;"></div>
     <div class="floating-shape w-80 h-80 bg-purple-500 top-1/2 left-1/2" style="animation-delay: -10s;"></div>
@@ -412,8 +405,7 @@
       <p class="reveal-text font-sans text-sm md:text-base tracking-widest uppercase mb-6 text-secondary" id="hero-subtitle">Graphic Designer &amp; Visual Storyteller</p>
       <h1 class="reveal-text reveal-text-delay-1 font-display text-5xl md:text-7xl lg:text-8xl font-medium leading-tight mb-8" id="hero-title"><span id="designer-name-display">Aria Chen</span></h1>
       <p class="reveal-text reveal-text-delay-2 font-body text-lg md:text-xl lg:text-2xl text-secondary max-w-2xl mb-12 leading-relaxed" id="hero-description">Crafting impactful brand identities, visual systems, and creative designs that tell compelling stories.</p>
-      <div class="reveal-text reveal-text-delay-3 flex flex-wrap gap-4">
-       <a href="#work" class="btn-primary px-8 py-4 rounded-full font-sans text-sm tracking-wide font-medium"> View Portfolio </a> <a href="#contact" class="btn-outline px-8 py-4 rounded-full font-sans text-sm tracking-wide"> Contact Me </a>
+      <div class="reveal-text reveal-text-delay-3 flex flex-wrap gap-4"><a href="#work" class="btn-primary px-8 py-4 rounded-full font-sans text-sm tracking-wide font-medium"> View Portfolio </a> <a href="#contact" class="btn-outline px-8 py-4 rounded-full font-sans text-sm tracking-wide"> Contact Me </a>
       </div>
      </div><!-- Scroll indicator -->
      <div class="reveal-text reveal-text-delay-4 absolute bottom-12 left-6 md:left-12 flex items-center gap-4">
@@ -428,87 +420,73 @@
        <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-4">Selected Works</p>
        <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium">Featured Projects</h2>
       </div><!-- Filter Buttons -->
-      <div class="flex flex-wrap gap-3" id="filter-buttons">
-       <button class="filter-btn active px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="all">All</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="branding">Branding</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="logo">Logo</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="packaging">Packaging</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="social">Social</button>
+      <div class="flex flex-wrap gap-3" id="filter-buttons"><button class="filter-btn active px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="all">All</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="branding">Branding</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="logo">Logo</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="packaging">Packaging</button> <button class="filter-btn px-4 py-2 rounded-full font-sans text-xs tracking-wide border border-secondary" data-filter="social">Social</button>
       </div>
      </div><!-- Masonry Grid -->
-     <div class="masonry-grid" id="projects-grid">
-      <!-- Project 1 -->
+     <div class="masonry-grid" id="projects-grid"><!-- Project 1 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="branding" data-project="1">
        <div class="absolute inset-0 bg-gradient-to-br from-amber-400 via-orange-500 to-red-500 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-24 h-24 text-white/30" viewbox="0 0 100 100">
-          <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2" /> <path d="M30 50 L45 65 L70 35" fill="none" stroke="currentColor" stroke-width="3" />
+         <svg class="w-24 h-24 text-white/30" viewbox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2" /> <path d="M30 50 L45 65 L70 35" fill="none" stroke="currentColor" stroke-width="3" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Brand Identity</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Brand Identity</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">Lumina Coffee</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div><!-- Project 2 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="logo" data-project="2">
        <div class="absolute inset-0 bg-gradient-to-br from-violet-500 via-purple-600 to-indigo-700 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100">
-          <polygon points="50,10 90,90 10,90" fill="none" stroke="currentColor" stroke-width="2" />
+         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100"><polygon points="50,10 90,90 10,90" fill="none" stroke="currentColor" stroke-width="2" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Logo Design</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Logo Design</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">Apex Studios</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div><!-- Project 3 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="packaging" data-project="3">
        <div class="absolute inset-0 bg-gradient-to-br from-emerald-400 via-teal-500 to-cyan-600 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100">
-          <rect x="20" y="20" width="60" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2" /> <line x1="20" y1="40" x2="80" y2="40" stroke="currentColor" stroke-width="2" />
+         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100"><rect x="20" y="20" width="60" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2" /> <line x1="20" y1="40" x2="80" y2="40" stroke="currentColor" stroke-width="2" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Packaging</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Packaging</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">Botanical Bliss</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div><!-- Project 4 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="branding" data-project="4">
        <div class="absolute inset-0 bg-gradient-to-br from-rose-400 via-pink-500 to-fuchsia-600 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100">
-          <circle cx="50" cy="35" r="20" fill="none" stroke="currentColor" stroke-width="2" /> <path d="M25 90 Q50 60 75 90" fill="none" stroke="currentColor" stroke-width="2" />
+         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100"><circle cx="50" cy="35" r="20" fill="none" stroke="currentColor" stroke-width="2" /> <path d="M25 90 Q50 60 75 90" fill="none" stroke="currentColor" stroke-width="2" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Brand Identity</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Brand Identity</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">Serene Spa</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div><!-- Project 5 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="social" data-project="5">
        <div class="absolute inset-0 bg-gradient-to-br from-sky-400 via-blue-500 to-indigo-600 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100">
-          <rect x="15" y="25" width="70" height="50" rx="4" fill="none" stroke="currentColor" stroke-width="2" /> <circle cx="35" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="2" /> <line x1="55" y1="45" x2="75" y2="45" stroke="currentColor" stroke-width="2" /> <line x1="55" y1="55" x2="70" y2="55" stroke="currentColor" stroke-width="2" />
+         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100"><rect x="15" y="25" width="70" height="50" rx="4" fill="none" stroke="currentColor" stroke-width="2" /> <circle cx="35" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="2" /> <line x1="55" y1="45" x2="75" y2="45" stroke="currentColor" stroke-width="2" /> <line x1="55" y1="55" x2="70" y2="55" stroke="currentColor" stroke-width="2" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Social Media</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Social Media</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">TechFlow Campaign</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div><!-- Project 6 -->
       <div class="project-card masonry-item relative rounded-2xl overflow-hidden cursor-pointer" data-category="logo" data-project="6">
        <div class="absolute inset-0 bg-gradient-to-br from-slate-700 via-zinc-800 to-neutral-900 project-image">
         <div class="absolute inset-0 flex items-center justify-center">
-         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100">
-          <path d="M50 15 L85 85 L15 85 Z" fill="none" stroke="currentColor" stroke-width="2" /> <circle cx="50" cy="55" r="15" fill="none" stroke="currentColor" stroke-width="2" />
+         <svg class="w-20 h-20 text-white/30" viewbox="0 0 100 100"><path d="M50 15 L85 85 L15 85 Z" fill="none" stroke="currentColor" stroke-width="2" /> <circle cx="50" cy="55" r="15" fill="none" stroke="currentColor" stroke-width="2" />
          </svg>
         </div>
        </div>
-       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6">
-        <span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Logo Design</span>
+       <div class="project-overlay absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-6"><span class="font-sans text-xs tracking-widest uppercase text-primary mb-3">Logo Design</span>
         <h3 class="font-display text-2xl md:text-3xl text-white text-center mb-4">Monolith Arch</h3><span class="px-4 py-2 border border-white/30 rounded-full font-sans text-xs text-white">View Case Study</span>
        </div>
       </div>
@@ -521,20 +499,15 @@
      <h2 class="font-display text-3xl md:text-4xl font-medium">Explore Gallery</h2>
     </div>
     <div class="horizontal-scroll">
-     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
-      <span class="font-display text-2xl text-white/80">Brand Book</span>
+     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center"><span class="font-display text-2xl text-white/80">Brand Book</span>
      </div>
-     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center">
-      <span class="font-display text-2xl text-white/80">Icon Set</span>
+     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center"><span class="font-display text-2xl text-white/80">Icon Set</span>
      </div>
-     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-blue-400 to-violet-600 flex items-center justify-center">
-      <span class="font-display text-2xl text-white/80">Print Design</span>
+     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-blue-400 to-violet-600 flex items-center justify-center"><span class="font-display text-2xl text-white/80">Print Design</span>
      </div>
-     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-pink-400 to-rose-600 flex items-center justify-center">
-      <span class="font-display text-2xl text-white/80">Typography</span>
+     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-pink-400 to-rose-600 flex items-center justify-center"><span class="font-display text-2xl text-white/80">Typography</span>
      </div>
-     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center">
-      <span class="font-display text-2xl text-white/80">Illustration</span>
+     <div class="w-72 md:w-96 h-64 md:h-80 rounded-xl bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center"><span class="font-display text-2xl text-white/80">Illustration</span>
      </div>
     </div>
    </section><!-- Services Section -->
@@ -544,12 +517,10 @@
       <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-4">What I Do</p>
       <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium">Services</h2>
      </div>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Service 1 -->
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><!-- Service 1 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Brand Identity</h3>
@@ -557,8 +528,7 @@
       </div><!-- Service 2 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Logo Design</h3>
@@ -566,8 +536,7 @@
       </div><!-- Service 3 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Marketing Materials</h3>
@@ -575,8 +544,7 @@
       </div><!-- Service 4 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Social Media Design</h3>
@@ -584,8 +552,7 @@
       </div><!-- Service 5 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-sky-400 to-blue-500 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Packaging Design</h3>
@@ -593,8 +560,7 @@
       </div><!-- Service 6 -->
       <div class="service-card bg-surface p-8 rounded-2xl">
        <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-slate-500 to-zinc-700 flex items-center justify-center mb-6">
-        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
         </svg>
        </div>
        <h3 class="font-display text-2xl mb-3">Creative Direction</h3>
@@ -605,21 +571,17 @@
    </section><!-- About Section -->
    <section id="about" class="py-24 md:py-32 px-6 md:px-12 bg-surface section-fade">
     <div class="max-w-7xl mx-auto">
-     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-      <!-- Portrait -->
+     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center"><!-- Portrait -->
       <div class="relative">
        <div class="aspect-[4/5] rounded-2xl bg-gradient-to-br from-primary/20 via-purple-500/20 to-blue-500/20 overflow-hidden">
         <div class="absolute inset-0 flex items-center justify-center">
-         <div class="w-48 h-48 rounded-full bg-gradient-to-br from-primary to-amber-500 flex items-center justify-center">
-          <span class="font-display text-6xl text-bg">AC</span>
+         <div class="w-48 h-48 rounded-full bg-gradient-to-br from-primary to-amber-500 flex items-center justify-center"><span class="font-display text-6xl text-bg">FR</span>
          </div>
         </div>
        </div><!-- Floating elements -->
-       <div class="absolute -top-4 -right-4 w-24 h-24 rounded-xl bg-primary flex items-center justify-center">
-        <span class="font-display text-3xl text-bg" id="years-display">12+</span>
+       <div class="absolute -top-4 -right-4 w-24 h-24 rounded-xl bg-primary flex items-center justify-center"><span class="font-display text-3xl text-bg" id="years-display">12+</span>
        </div>
-       <div class="absolute -bottom-4 -left-4 px-6 py-3 rounded-full bg-bg">
-        <span class="font-sans text-sm">Years Experience</span>
+       <div class="absolute -bottom-4 -left-4 px-6 py-3 rounded-full bg-bg"><span class="font-sans text-sm">Years Experience</span>
        </div>
       </div><!-- Bio -->
       <div>
@@ -629,8 +591,7 @@
        <p class="font-body text-lg text-secondary leading-relaxed mb-8">My design philosophy centers on the belief that great design is invisible — it should feel so natural that it becomes an extension of the brand itself. I combine strategic thinking with aesthetic precision to create work that not only looks beautiful but performs.</p><!-- Tools -->
        <div class="mb-8">
         <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-4">Tools &amp; Software</p>
-        <div class="flex flex-wrap gap-3">
-         <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Adobe Illustrator</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Photoshop</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Figma</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">After Effects</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">InDesign</span>
+        <div class="flex flex-wrap gap-3"><span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Adobe Illustrator</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Photoshop</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">Figma</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">After Effects</span> <span class="px-4 py-2 rounded-full bg-bg font-sans text-sm">InDesign</span>
         </div>
        </div><a href="#contact" class="btn-primary inline-block px-8 py-4 rounded-full font-sans text-sm tracking-wide font-medium"> Let's Work Together </a>
       </div>
@@ -642,13 +603,10 @@
      <p class="font-sans text-sm tracking-widest uppercase text-secondary text-center">Trusted By</p>
     </div>
     <div class="relative">
-     <div class="logo-scroll flex items-center gap-16 whitespace-nowrap">
-      <!-- Logos repeat for seamless scroll -->
-      <div class="flex items-center gap-16">
-       <span class="font-display text-2xl text-secondary/50">ACME Corp</span> <span class="font-display text-2xl text-secondary/50">TechStart</span> <span class="font-display text-2xl text-secondary/50">Bloom &amp; Co</span> <span class="font-display text-2xl text-secondary/50">Velocity</span> <span class="font-display text-2xl text-secondary/50">Horizon Labs</span> <span class="font-display text-2xl text-secondary/50">Craft Studio</span> <span class="font-display text-2xl text-secondary/50">Nova Design</span> <span class="font-display text-2xl text-secondary/50">Pulse Media</span>
+     <div class="logo-scroll flex items-center gap-16 whitespace-nowrap"><!-- Logos repeat for seamless scroll -->
+      <div class="flex items-center gap-16"><span class="font-display text-2xl text-secondary/50">ACME Corp</span> <span class="font-display text-2xl text-secondary/50">TechStart</span> <span class="font-display text-2xl text-secondary/50">Bloom &amp; Co</span> <span class="font-display text-2xl text-secondary/50">Velocity</span> <span class="font-display text-2xl text-secondary/50">Horizon Labs</span> <span class="font-display text-2xl text-secondary/50">Craft Studio</span> <span class="font-display text-2xl text-secondary/50">Nova Design</span> <span class="font-display text-2xl text-secondary/50">Pulse Media</span>
       </div>
-      <div class="flex items-center gap-16">
-       <span class="font-display text-2xl text-secondary/50">ACME Corp</span> <span class="font-display text-2xl text-secondary/50">TechStart</span> <span class="font-display text-2xl text-secondary/50">Bloom &amp; Co</span> <span class="font-display text-2xl text-secondary/50">Velocity</span> <span class="font-display text-2xl text-secondary/50">Horizon Labs</span> <span class="font-display text-2xl text-secondary/50">Craft Studio</span> <span class="font-display text-2xl text-secondary/50">Nova Design</span> <span class="font-display text-2xl text-secondary/50">Pulse Media</span>
+      <div class="flex items-center gap-16"><span class="font-display text-2xl text-secondary/50">ACME Corp</span> <span class="font-display text-2xl text-secondary/50">TechStart</span> <span class="font-display text-2xl text-secondary/50">Bloom &amp; Co</span> <span class="font-display text-2xl text-secondary/50">Velocity</span> <span class="font-display text-2xl text-secondary/50">Horizon Labs</span> <span class="font-display text-2xl text-secondary/50">Craft Studio</span> <span class="font-display text-2xl text-secondary/50">Nova Design</span> <span class="font-display text-2xl text-secondary/50">Pulse Media</span>
       </div>
      </div>
     </div>
@@ -659,19 +617,23 @@
       <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-4">Testimonials</p>
       <h2 class="font-display text-4xl md:text-5xl font-medium">Client Words</h2>
      </div>
-     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Testimonial 1 -->
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-6"><!-- Testimonial 1 -->
       <div class="testimonial-card bg-bg p-8 rounded-2xl">
        <div class="flex gap-1 mb-6">
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
        </div>
        <p class="font-body text-lg leading-relaxed mb-6">"Aria transformed our entire brand presence. Her strategic approach and creative execution exceeded all expectations. Our rebrand drove a 40% increase in engagement."</p>
@@ -682,15 +644,20 @@
       </div><!-- Testimonial 2 -->
       <div class="testimonial-card bg-bg p-8 rounded-2xl">
        <div class="flex gap-1 mb-6">
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
        </div>
        <p class="font-body text-lg leading-relaxed mb-6">"Working with Aria was an absolute pleasure. She understood our vision immediately and delivered packaging that stands out on shelves. Sales increased 25% after launch."</p>
@@ -701,15 +668,20 @@
       </div><!-- Testimonial 3 -->
       <div class="testimonial-card bg-bg p-8 rounded-2xl">
        <div class="flex gap-1 mb-6">
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
-        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        <svg class="w-5 h-5 text-primary" fill="currentColor" viewbox="0 0 20 20">
+         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
        </div>
        <p class="font-body text-lg leading-relaxed mb-6">"Aria's creative direction for our social campaigns was phenomenal. She has an incredible ability to translate brand values into visual stories that resonate with audiences."</p>
@@ -723,8 +695,7 @@
    </section><!-- Contact Section -->
    <section id="contact" class="py-24 md:py-32 px-6 md:px-12 bg-bg section-fade">
     <div class="max-w-7xl mx-auto">
-     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-      <!-- Contact Info -->
+     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20"><!-- Contact Info -->
       <div>
        <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-4">Get In Touch</p>
        <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium mb-8">Let's Create Something Amazing</h2>
@@ -735,39 +706,37 @@
         </div>
         <div>
          <p class="font-sans text-sm tracking-widest uppercase text-secondary mb-2">Location</p>
-         <p class="font-display text-xl">San Francisco, CA</p>
+         <p class="font-display text-xl">Johor Bahru, Johor</p>
         </div>
        </div><!-- Social Links -->
-       <div class="flex gap-4">
-        <a href="#" class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center hover:border-primary hover:text-primary transition-all" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+       <div class="flex gap-4"><a href="#" class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center hover:border-primary hover:text-primary transition-all" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
          </svg></a> <a href="#" class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center hover:border-primary hover:text-primary transition-all" target="_blank" rel="noopener noreferrer" aria-label="Behance">
-         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z" />
+         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+          <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z" />
          </svg></a> <a href="#" class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center hover:border-primary hover:text-primary transition-all" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
-         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z" />
+         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+          <path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z" />
          </svg></a> <a href="#" class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center hover:border-primary hover:text-primary transition-all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
          </svg></a>
        </div>
       </div><!-- Contact Form -->
       <div class="bg-surface p-8 md:p-12 rounded-2xl">
        <form id="contact-form" class="space-y-6">
-        <div>
-         <label for="name" class="block font-sans text-sm tracking-wide mb-2">Name</label> <input type="text" id="name" name="name" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body" placeholder="Your name">
+        <div><label for="name" class="block font-sans text-sm tracking-wide mb-2">Name</label> <input type="text" id="name" name="name" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body" placeholder="Your name">
         </div>
-        <div>
-         <label for="email" class="block font-sans text-sm tracking-wide mb-2">Email</label> <input type="email" id="email" name="email" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body" placeholder="your@email.com">
+        <div><label for="email" class="block font-sans text-sm tracking-wide mb-2">Email</label> <input type="email" id="email" name="email" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body" placeholder="your@email.com">
         </div>
-        <div>
-         <label for="project" class="block font-sans text-sm tracking-wide mb-2">Project Type</label> <select id="project" name="project" class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body"> <option value="">Select a service</option> <option value="branding">Brand Identity</option> <option value="logo">Logo Design</option> <option value="packaging">Packaging Design</option> <option value="social">Social Media Design</option> <option value="other">Other</option> </select>
+        <div><label for="project" class="block font-sans text-sm tracking-wide mb-2">Project Type</label> <select id="project" name="project" class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body"> <option value="">Select a service</option> <option value="branding">Brand Identity</option> <option value="logo">Logo Design</option> <option value="packaging">Packaging Design</option> <option value="social">Social Media Design</option> <option value="other">Other</option> </select>
         </div>
-        <div>
-         <label for="message" class="block font-sans text-sm tracking-wide mb-2">Message</label> <textarea id="message" name="message" rows="5" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body resize-none" placeholder="Tell me about your project..."></textarea>
+        <div><label for="message" class="block font-sans text-sm tracking-wide mb-2">Message</label> <textarea id="message" name="message" rows="5" required class="w-full px-4 py-4 rounded-xl bg-bg border border-transparent focus:border-primary outline-none transition-all font-body resize-none" placeholder="Tell me about your project..."></textarea>
         </div><button type="submit" class="btn-primary w-full px-8 py-4 rounded-full font-sans text-sm tracking-wide font-medium"> Send Message </button>
        </form>
        <div id="form-success" class="hidden text-center py-8">
-        <svg class="w-16 h-16 text-primary mx-auto mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <svg class="w-16 h-16 text-primary mx-auto mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
         <p class="font-display text-2xl mb-2">Message Sent!</p>
         <p class="font-body text-secondary">I'll get back to you within 24 hours.</p>
@@ -778,42 +747,35 @@
    </section><!-- Footer -->
    <footer class="py-8 px-6 md:px-12 bg-surface border-t border-secondary/20">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-     <p class="font-sans text-sm text-secondary">© 2024 <span id="footer-name">Aria Chen</span>. All rights reserved.</p>
-     <div class="flex items-center gap-6">
-      <a href="#hero" class="font-sans text-sm text-secondary hover:text-primary transition-colors">Back to Top</a>
+     <p class="font-sans text-sm text-secondary">© 2024 <span id="footer-name">Faizal Razak</span>. All rights reserved.</p>
+     <div class="flex items-center gap-6"><a href="#hero" class="font-sans text-sm text-secondary hover:text-primary transition-colors">Back to Top</a>
      </div>
     </div>
    </footer><!-- Case Study Modal -->
    <div class="case-study-modal fixed inset-0 z-50 bg-bg/95 overflow-y-auto" id="case-study-modal">
-    <div class="case-study-content max-w-5xl mx-auto px-6 py-24">
-     <button onclick="closeCaseStudy()" class="fixed top-6 right-6 w-12 h-12 rounded-full bg-surface flex items-center justify-center hover:bg-primary hover:text-bg transition-all z-10">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    <div class="case-study-content max-w-5xl mx-auto px-6 py-24"><button onclick="closeCaseStudy()" class="fixed top-6 right-6 w-12 h-12 rounded-full bg-surface flex items-center justify-center hover:bg-primary hover:text-bg transition-all z-10">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
       </svg></button>
-     <div id="case-study-content">
-      <!-- Dynamic content loaded here -->
+     <div id="case-study-content"><!-- Dynamic content loaded here -->
      </div>
     </div>
    </div><!-- Lightbox -->
-   <div class="lightbox fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-6" id="lightbox">
-    <button onclick="closeLightbox()" class="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all">
-     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+   <div class="lightbox fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-6" id="lightbox"><button onclick="closeLightbox()" class="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all">
+     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
      </svg></button>
-    <div id="lightbox-content" class="max-w-4xl w-full">
-     <!-- Dynamic content loaded here -->
+    <div id="lightbox-content" class="max-w-4xl w-full"><!-- Dynamic content loaded here -->
     </div>
    </div>
   </div>
   <script>
     // Default config
     const defaultConfig = {
-      designer_name: 'Aria Chen',
+      designer_name: 'Faizal Razak',
       designer_tagline: 'Graphic Designer & Visual Storyteller',
       hero_description: 'Crafting impactful brand identities, visual systems, and creative designs that tell compelling stories.',
-      about_bio: "I'm a graphic designer with over 12 years of experience crafting visual identities that resonate. Based in San Francisco, I've had the privilege of working with startups, Fortune 500 companies, and everything in between.",
+      about_bio: "I'm a graphic designer with over 12 years of experience crafting visual identities that resonate. Based in Johor Bahru, I've had the privilege of working with startups, Fortune 500 companies, and everything in between.",
       years_experience: '12+',
-      contact_email: 'hello@ariachen.design',
+      contact_email: 'hello@faizalrazak.design',
       background_color: '#0a0a0a',
       surface_color: '#151515',
       text_color: '#fafafa',
@@ -1191,5 +1153,5 @@
       }
     });
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d971edbb3af5348',t:'MTc3MzAyODI3OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9da8ffa4f576d04c',t:'MTc3MzIxNTc0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
